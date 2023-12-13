@@ -1,0 +1,1 @@
+console.log("Omkar is a very Intelligent");

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    style
+        include ../static/style.css
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Flat 60% Discount on bookings</h1>
+        <h2>Fill the Below Enquiry Form to get the offer, we will get back to you soon</h2>
+        <!-- <p>
+            | #{content}
+        </p> -->
+        <form action="/" method="post" id="contact">
+            <input type="text" name="name" id="name" placeholder="Enter your name here">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="mobile" name="mobile" id="mobile" placeholder="Enter your contact no.">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <textarea name="query" id="query" cols="30" rows="10" placeholder="If you have any queries, feel free to write them here"></textarea>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
